@@ -2,11 +2,15 @@
   "private": true,
   "main": "src/scraper.ts",
   "scripts": {
-    "command": "ts-node src/command"
+    "command": "ts-node src/command",
+    "watch": "nodemon"
   },
   "dependencies": {
     "@types/node": "^12.0.2",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
