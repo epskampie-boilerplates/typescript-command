@@ -1,3 +1,3 @@
-require('process');
+import { argv } from 'process';
 
-console.log('Hello world', process.argv);
+console.log('Hello world', argv);
